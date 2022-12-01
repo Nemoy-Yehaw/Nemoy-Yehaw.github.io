@@ -1,0 +1,74 @@
+
+    .header 
+    { 
+    
+    font-size: 40px;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+   
+}
+
+    .nav 
+    {  
+        background-color: #74e980;
+        color: #282828;
+        font-family: 'Raleway',;
+        text-align: center;
+        padding: 5px;
+        border-style: solid none solid none;
+        border-color: #63c76d;
+        border-width: 5px;
+        margin: 5px;
+        text-align: center;
+    }
+
+.card 
+{
+    background-color: #74e980;
+    padding: 5px;
+    border-style: solid none solid none;
+    border-color: #63c76d;
+    border-width: 5px;
+    margin: 5px;
+     text-align: center;
+}
+
+    body  
+    { 
+        background-color: #91e89a; 
+        font-family: Verdana;
+        margin: auto;
+
+    }
+
+    .section
+    {
+        border-style: solid solid solid solid;
+        border-color: #63c76d;
+        border-width: 5px;
+        background-color: #74e980;
+        padding: 5px;
+        word-wrap: break-word;
+        max-width: 1000px;
+        margin: auto;
+    }
+
+
+   .footer
+   {
+    background-color: #74e980;
+    
+    border-style: solid none none none;
+        border-color: #63c76d;
+        border-width: 5px;
+        font-family: Verdana;
+        padding: 5px;
+        margin: 5px;
+        text-align: center;
+   }
+
+   .hr
+   {
+    border-top: 5px solid #91e89a;
+  }
