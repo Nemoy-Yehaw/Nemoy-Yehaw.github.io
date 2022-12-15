@@ -100,7 +100,7 @@
   .upsidedown 
   {
     display: inline-block;
-    transform: left;
+    
     transform: translate(3px, 6px) rotateX(180deg);
   
 
