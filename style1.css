@@ -4,7 +4,7 @@
     
     font-size: 40px;
     text-align: center;
-    font-family: 'Raleway', sans-serif;
+    font-family: "Raleway", sans-serif;
     text-align: center;
    
 }
@@ -12,8 +12,7 @@
     .nav 
     {  
         background-color: #74e980;
-        color: #282828;
-        font-family: 'Raleway',;
+        font-family: "Verdana";
         text-align: center;
         padding: 5px;
         border-style: solid none solid none;
@@ -21,6 +20,7 @@
         border-width: 5px;
         margin: 5px;
         text-align: center;
+        
     }
 
 .card 
@@ -31,15 +31,32 @@
     border-color: #63c76d;
     border-width: 5px;
     margin: 5px;
-     text-align: center;
+    text-align: center;
+    text-decoration-line: underline;
+    text-decoration-style: dashed;
+    text-decoration-thickness: 8%;
+    text-decoration-color: #124d18;
+    color: #0a2b0d;
+    
+
+
+    
 }
 
     body  
     { 
         background-color: #91e89a; 
-        font-family: Verdana;
+        font-family: "Verdana";
         margin: auto;
+        
+       
+        background-image:  linear-gradient(#f2f2f2 2.5px, 
+        transparent 2.5px), 
+        linear-gradient(to right, #f2f2f2 2.5px, #91e89a 2.5px);
+        background-size: 50px 50px;
 
+
+        
     }
 
     .section
@@ -47,28 +64,57 @@
         border-style: solid solid solid solid;
         border-color: #63c76d;
         border-width: 5px;
+        border-radius: 15px;
         background-color: #74e980;
         padding: 5px;
         word-wrap: break-word;
         max-width: 1000px;
         margin: auto;
+        color: #0a2b0d;
+       
     }
 
 
    .footer
    {
     background-color: #74e980;
-    
     border-style: solid none none none;
-        border-color: #63c76d;
+    border-color: #63c76d;
         border-width: 5px;
-        font-family: Verdana;
+        font-family: "Verdana";
         padding: 5px;
         margin: 5px;
         text-align: center;
+        
+       
+
+
    }
 
    .hr
    {
     border-top: 5px solid #91e89a;
+    opacity: 0.0;
+  }
+
+  .upsidedown 
+  {
+    display: inline-block;
+    transform: left;
+    transform: translate(3px, 6px) rotateX(180deg);
+  
+
+  }
+
+  .upsideup
+  {
+    display: inline-block;
+    transform: translate(3px, 6px);
+  
+  }
+
+  .upsideright
+  {
+    display: inline-block;
+    transform: translate(3px, 6px) rotate(30deg);
   }
